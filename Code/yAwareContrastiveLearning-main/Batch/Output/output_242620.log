@@ -1,0 +1,115 @@
+Starting pretraining...
+Loss Function: GeneralizedSupervisedNTXenLoss(temp=0.1, kernel=<lambda>, sigma=5)
+Optimizer: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    lr: 0.0001
+    maximize: False
+    weight_decay: 5e-05
+)
+Epoch [1/100] Training loss = 1.2748 Validation loss = 1.0911	
+Epoch [2/100] Training loss = 0.5553 Validation loss = 0.7467	
+Epoch [3/100] Training loss = 0.3140 Validation loss = 0.7640	
+Epoch [4/100] Training loss = 0.2410 Validation loss = 0.5747	
+Epoch [5/100] Training loss = 0.2136 Validation loss = 0.4116	
+Epoch [6/100] Training loss = 0.2193 Validation loss = 0.4263	
+Epoch [7/100] Training loss = 0.1959 Validation loss = 0.6848	
+Epoch [8/100] Training loss = 0.1574 Validation loss = 0.4027	
+Epoch [9/100] Training loss = 0.1621 Validation loss = 0.3227	
+Epoch [10/100] Training loss = 0.1611 Validation loss = 0.5225	
+Epoch [11/100] Training loss = 0.1302 Validation loss = 0.3457	
+Epoch [12/100] Training loss = 0.1499 Validation loss = 0.3593	
+Epoch [13/100] Training loss = 0.1503 Validation loss = 0.5160	
+Epoch [14/100] Training loss = 0.1094 Validation loss = 0.2618	
+Epoch [15/100] Training loss = 0.1271 Validation loss = 0.2589	
+Epoch [16/100] Training loss = 0.1066 Validation loss = 0.4581	
+Epoch [17/100] Training loss = 0.1158 Validation loss = 0.3404	
+Epoch [18/100] Training loss = 0.0824 Validation loss = 0.2668	
+Epoch [19/100] Training loss = 0.1074 Validation loss = 0.2921	
+Epoch [20/100] Training loss = 0.0965 Validation loss = 0.2446	
+Epoch [21/100] Training loss = 0.1118 Validation loss = 0.2574	
+Epoch [22/100] Training loss = 0.1245 Validation loss = 0.3090	
+Epoch [23/100] Training loss = 0.1321 Validation loss = 0.2251	
+Epoch [24/100] Training loss = 0.1321 Validation loss = 0.2979	
+Epoch [25/100] Training loss = 0.0846 Validation loss = 0.2066	
+Epoch [26/100] Training loss = 0.0940 Validation loss = 0.2032	
+Epoch [27/100] Training loss = 0.0809 Validation loss = 0.2351	
+Epoch [28/100] Training loss = 0.0718 Validation loss = 0.2045	
+Epoch [29/100] Training loss = 0.0807 Validation loss = 0.2058	
+Epoch [30/100] Training loss = 0.0944 Validation loss = 0.3846	
+Epoch [31/100] Training loss = 0.1296 Validation loss = 0.5574	
+Epoch [32/100] Training loss = 0.0940 Validation loss = 0.2369	
+Epoch [33/100] Training loss = 0.0735 Validation loss = 0.2097	
+Epoch [34/100] Training loss = 0.0588 Validation loss = 0.2115	
+Epoch [35/100] Training loss = 0.0654 Validation loss = 0.1893	
+Epoch [36/100] Training loss = 0.0720 Validation loss = 0.2667	
+Epoch [37/100] Training loss = 0.0699 Validation loss = 0.2457	
+Epoch [38/100] Training loss = 0.0630 Validation loss = 0.3178	
+Epoch [39/100] Training loss = 0.0644 Validation loss = 0.2480	
+Epoch [40/100] Training loss = 0.0600 Validation loss = 0.2194	
+Epoch [41/100] Training loss = 0.0538 Validation loss = 0.1881	
+Epoch [42/100] Training loss = 0.0503 Validation loss = 0.1461	
+Epoch [43/100] Training loss = 0.0490 Validation loss = 0.1707	
+Epoch [44/100] Training loss = 0.0509 Validation loss = 0.2128	
+Epoch [45/100] Training loss = 0.0667 Validation loss = 0.1682	
+Epoch [46/100] Training loss = 0.0611 Validation loss = 0.1673	
+Epoch [47/100] Training loss = 0.0645 Validation loss = 0.1890	
+Epoch [48/100] Training loss = 0.0461 Validation loss = 0.1695	
+Epoch [49/100] Training loss = 0.0551 Validation loss = 0.1892	
+Epoch [50/100] Training loss = 0.0505 Validation loss = 0.1433	
+Epoch [51/100] Training loss = 0.0945 Validation loss = 0.3381	
+Epoch [52/100] Training loss = 0.0588 Validation loss = 0.2502	
+Epoch [53/100] Training loss = 0.0451 Validation loss = 0.3272	
+Epoch [54/100] Training loss = 0.0653 Validation loss = 0.1751	
+Epoch [55/100] Training loss = 0.0696 Validation loss = 0.1758	
+Epoch [56/100] Training loss = 0.0598 Validation loss = 0.1320	
+Epoch [57/100] Training loss = 0.0470 Validation loss = 0.1824	
+Epoch [58/100] Training loss = 0.0373 Validation loss = 0.2159	
+Epoch [59/100] Training loss = 0.0426 Validation loss = 0.1943	
+Epoch [60/100] Training loss = 0.0401 Validation loss = 0.1354	
+Epoch [61/100] Training loss = 0.0382 Validation loss = 0.1384	
+Epoch [62/100] Training loss = 0.0284 Validation loss = 0.1464	
+Epoch [63/100] Training loss = 0.0361 Validation loss = 0.2023	
+Epoch [64/100] Training loss = 0.0514 Validation loss = 0.2290	
+Epoch [65/100] Training loss = 0.0416 Validation loss = 0.1513	
+Epoch [66/100] Training loss = 0.0418 Validation loss = 0.1591	
+Epoch [67/100] Training loss = 0.0742 Validation loss = 0.1578	
+Epoch [68/100] Training loss = 0.0418 Validation loss = 0.1874	
+Epoch [69/100] Training loss = 0.0560 Validation loss = 0.3634	
+Epoch [70/100] Training loss = 0.0765 Validation loss = 0.2250	
+Epoch [71/100] Training loss = 0.0406 Validation loss = 0.1829	
+Epoch [72/100] Training loss = 0.0325 Validation loss = 0.1287	
+Epoch [73/100] Training loss = 0.0498 Validation loss = 0.1320	
+Epoch [74/100] Training loss = 0.0409 Validation loss = 0.2009	
+Epoch [75/100] Training loss = 0.0469 Validation loss = 0.1532	
+Epoch [76/100] Training loss = 0.0469 Validation loss = 0.2955	
+Epoch [77/100] Training loss = 0.0448 Validation loss = 0.2459	
+Epoch [78/100] Training loss = 0.0402 Validation loss = 0.1522	
+Epoch [79/100] Training loss = 0.0263 Validation loss = 0.1080	
+Epoch [80/100] Training loss = 0.0401 Validation loss = 0.2729	
+Epoch [81/100] Training loss = 0.0350 Validation loss = 0.1815	
+Epoch [82/100] Training loss = 0.0309 Validation loss = 0.1944	
+Epoch [83/100] Training loss = 0.0405 Validation loss = 0.2481	
+Epoch [84/100] Training loss = 0.0435 Validation loss = 0.1132	
+Epoch [85/100] Training loss = 0.0271 Validation loss = 0.1311	
+Epoch [86/100] Training loss = 0.0262 Validation loss = 0.1293	
+Epoch [87/100] Training loss = 0.0401 Validation loss = 0.1963	
+Epoch [88/100] Training loss = 0.0374 Validation loss = 0.1111	
+Epoch [89/100] Training loss = 0.0410 Validation loss = 0.1501	
+Epoch [90/100] Training loss = 0.0716 Validation loss = 0.1434	
+Epoch [91/100] Training loss = 0.0451 Validation loss = 0.1202	
+Epoch [92/100] Training loss = 0.0375 Validation loss = 0.1463	
+Epoch [93/100] Training loss = 0.0245 Validation loss = 0.1586	
+Epoch [94/100] Training loss = 0.0454 Validation loss = 0.1547	
+Epoch [95/100] Training loss = 0.0405 Validation loss = 0.1621	
+Epoch [96/100] Training loss = 0.0281 Validation loss = 0.1058	
+Epoch [97/100] Training loss = 0.0227 Validation loss = 0.1651	
+Epoch [98/100] Training loss = 0.0282 Validation loss = 0.1029	
+Epoch [99/100] Training loss = 0.0486 Validation loss = 0.1802	
+Epoch [100/100] Training loss = 0.0409 Validation loss = 0.1472	

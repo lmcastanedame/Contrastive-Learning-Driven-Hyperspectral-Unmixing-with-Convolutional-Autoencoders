@@ -1,0 +1,18 @@
+Epoch 1/60 - Training:   0%|          | 0/154 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/ids/castaneda-23/prim_manuela/Code/yAwareContrastiveLearning-main/main.py", line 81, in <module>
+    model.pretraining()
+  File "/home/ids/castaneda-23/prim_manuela/Code/yAwareContrastiveLearning-main/yAwareContrastiveLearning.py", line 93, in pretraining
+    recon_loss = self.reconstruction_loss(z_i) + self.reconstruction_loss(z_j)
+  File "/home/ids/castaneda-23/prim_manuela/Code/yAwareContrastiveLearning-main/yAwareContrastiveLearning.py", line 66, in reconstruction_loss
+    weights = self.compute_weights(z)
+  File "/home/ids/castaneda-23/prim_manuela/Code/yAwareContrastiveLearning-main/yAwareContrastiveLearning.py", line 59, in compute_weights
+    weights = softmax(W(z), dim=-1)  # Non-negative, sum-to-1 weights
+  File "/home/ids/castaneda-23/anaconda3/envs/CNNAEU/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ids/castaneda-23/anaconda3/envs/CNNAEU/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ids/castaneda-23/anaconda3/envs/CNNAEU/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (8x128 and 162x4)
+Epoch 1/60 - Training:   0%|          | 0/154 [00:03<?, ?it/s]
+srun: error: node08: task 0: Exited with exit code 1
