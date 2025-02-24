@@ -9,10 +9,10 @@ This repository contains the implementation of a contrastive learning-based appr
 Hyperspectral unmixing aims to recover pure spectral signatures (endmembers) and their proportions (abundances) from mixed hyperspectral pixels. Traditional unmixing methods rely on linear or nonlinear models, whereas deep learning offers a data-driven approach to extract spectral-spatial representations.
 
 ✨ Proposed Approach
-	•	A convolutional autoencoder (CAE) is used to learn a latent representation of hyperspectral patches.
-	•	Contrastive learning is applied to improve the discriminability of feature representations.
-	•	Data augmentations (e.g., cropping, jittering, flipping) are used to generate positive and negative pairs for contrastive training.
-	•	Reconstruction loss ensures that the extracted features retain meaningful spectral information.
+- A convolutional autoencoder (CAE) is used to learn a latent representation of hyperspectral patches.
+- Contrastive learning is applied to improve the discriminability of feature representations.
+- Data augmentations (e.g., cropping, jittering, flipping) are used to generate positive and negative pairs for contrastive training.
+- Reconstruction loss ensures that the extracted features retain meaningful spectral information.
 
 ## 🚀 Prerequisites
 
